@@ -1,12 +1,15 @@
 {
     "name": "desktop",
     "version": "1.0.0",
-    "main": "main.js",
+    "main": "dist/index.js",
     "private": true,
     "scripts": {
-      "start": "electron ."
-    },
+      "start": "yarn compile && electron .",
+      "clean": "shx rm -rf build && rm -rf dist && rm -rf node_modules",
+      "compile": "tsc -b"    },
     "devDependencies": {
-      "electron": "^4.0.6"
+      "electron": "^4.0.6",
+      "@types/electron-is-dev": "^0.3.0",
+      "electron-is-dev": "^1.0.1"
     }
   }

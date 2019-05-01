@@ -7,7 +7,8 @@
       "test": "jest",
       "ios": "react-native run-ios --simulator=\"iPad Air 2\"",
       "android": "react-native run-android",
-      "tsc": "tsc"
+      "tsc": "tsc",
+      "clean": "shx rm -rf ios/build && rm -rf android/build && rm -rf node_modules && watchman watch-del-all"
     },
     "dependencies": {
       "react": "16.6.3",
