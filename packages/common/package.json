@@ -1,10 +1,14 @@
 {
-    "name": "common",
+  "name": "@regg/common",
     "version": "1.0.0",
     "private": true,
     "license": "MIT",
     "main": "dist",
     "scripts": {
       "clean": "shx rm -rf dist && rm -rf node_modules"
-    }
-  } 
+    },
+    "dependencies": {
+      "react-native": "^0.58.6"
+    },
+    "devDependencies": {}
+  }

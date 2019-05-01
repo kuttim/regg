@@ -1,23 +1,27 @@
 {
-  "name": "web",
+  "name": "@regg/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
     "clean": "shx rm -rf dist && rm -rf node_modules"
   },
   "dependencies": {
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-art": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-native-web": "^0.10.0"
   },
   "devDependencies": {
     "@types/jest": "24.0.9",
     "@types/node": "11.10.4",
     "@types/react": "16.8.6",
     "@types/react-dom": "16.8.2",
+    "customize-cra": "^0.2.12",
+    "react-app-rewired": "^2.1.0",
     "react-scripts": "2.1.5",
     "typescript": "3.3.3333"
   },

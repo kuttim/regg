@@ -15,8 +15,8 @@
     ]
   },
   "scripts": {
-    "dev:web": "yarn workspace web start",
-    "dev:desktop": "yarn workspace desktop start",
+    "dev:web": "yarn workspace @regg/web start",
+    "dev:desktop": "yarn workspace @regg/desktop start",
     "clean": "yarn workspaces run clean && yarn cache clean && shx rm -rf yarn.lock && rm -rf node_modules"
   },
   "devDependencies": {
