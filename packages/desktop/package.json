@@ -1,0 +1,12 @@
+{
+    "name": "desktop",
+    "version": "1.0.0",
+    "main": "main.js",
+    "private": true,
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "^4.0.6"
+    }
+  }
