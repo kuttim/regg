@@ -1,0 +1,19 @@
+{
+  "name": "regg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kuttim/regg",
+  "author": "Mikk Küttim",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "react-native/**"
+    ]
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
